@@ -1,0 +1,23 @@
+nested {
+  str1: "a"
+  blob1: "a"
+  integer: 1
+}
+
+nested {
+  str1: "b"
+  blob1: "b"
+  integer: 2
+}
+
+nested {
+  str1: "c"
+  blob1: "c"
+  integer: 3
+}
+
+nested {
+  str1: "d"
+  blob1: "d"
+  integer: 4
+}

@@ -1,0 +1,22 @@
+syntax = "proto2";
+
+package lpmpp.test;
+
+message NestedTestMsg {
+  required string str1 = 1;
+  optional string str2 = 2;
+
+  required bytes blob1 = 3;
+  optional bytes blob2 = 4;
+
+  oneof v {
+    double number = 5;
+    uint64 integer = 6;
+    bool boolean = 7;
+    NestedTestMsg msg = 8;
+  }
+};
+
+message TestMsg {
+  repeated NestedTestMsg nested = 1;
+};

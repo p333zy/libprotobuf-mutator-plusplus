@@ -1,0 +1,9 @@
+op: "LOGIN"
+args {
+  key: "username"
+  vstr: "duncan"
+}
+args {
+  key: "password"
+  vstr: "helloworld123"
+}

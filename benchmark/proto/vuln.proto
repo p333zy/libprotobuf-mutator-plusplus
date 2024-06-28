@@ -1,0 +1,18 @@
+syntax = 'proto2';
+
+package vuln.fuzz;
+
+message RPCArgument {
+  required bytes key = 1;
+  oneof value {
+    bytes vstr = 2;
+    uint64 vint = 3;
+    bool vbool = 4;
+    double vfloat = 5;
+  }
+}
+
+message RPCCall {
+  required bytes op = 1;
+  repeated RPCArgument args = 2;
+}

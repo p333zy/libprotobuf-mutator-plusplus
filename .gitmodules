@@ -1,0 +1,4 @@
+[submodule "libprotobuf-mutator"]
+	path = libprotobuf-mutator
+	url = https://github.com/p333zy/libprotobuf-mutator.git
+	branch = buildfix

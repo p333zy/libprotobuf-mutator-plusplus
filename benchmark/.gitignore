@@ -1,0 +1,8 @@
+build-afl/
+build-afl-laf/
+build-afl-cmplog/
+build-libfuzzer/
+build/
+out/
+.gdb_history/
+core

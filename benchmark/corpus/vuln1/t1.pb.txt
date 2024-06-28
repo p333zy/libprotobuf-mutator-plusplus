@@ -1,0 +1,5 @@
+op: "EVAL"
+args {
+  key: "command"
+  vstr: "!HELLO"
+}

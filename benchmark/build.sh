@@ -35,7 +35,7 @@ cd build-libfuzzer
 meson compile
 cd ../
 
-mkdir out/afl
+mkdir -p out/afl
 mkdir out/afl-cmplog
 mkdir out/afl-laf
 mkdir out/lpm
